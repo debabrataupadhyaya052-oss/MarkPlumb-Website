@@ -1,0 +1,1158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.top-bar {
+    width: 100%;
+    height: 37px;
+    background-color: #29469b;
+    color: white;
+}
+
+.top-container {
+    width: 1180px;
+    max-width: 90%;
+    height: 37px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+}
+
+.location i {
+    color: #fd0480;
+    font-size: 13px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 14px;
+}
+
+.contact-info span {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.contact-info i {
+    font-size: 13px;
+    color: #fd0404;
+}
+
+.header {
+    width: 100%;
+    height: 83px;
+    background-color: white;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.header-container {
+    width: 1180px;
+    max-width: 90%;
+    height: 83px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 34px;
+    font-weight: 800;
+    letter-spacing: -1.5px;
+    white-space: nowrap;
+}
+
+.mark {
+    color: #29469b;
+}
+
+.plumb {
+    color: #f28c00;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-left: 100px;
+}
+
+
+.nav-bar a {
+    color: #222222;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    transition: 0.3s ease;
+}
+
+
+.nav-bar a:hover {
+    color: #f2001c;
+}
+
+.nav-bar .active {
+    color: #00f23c;
+}
+
+.nav-bar .active:hover {
+    color: #f2001c;
+}
+
+.nav-bar .about {
+    color: #00f251;
+}
+
+.book-btn {
+    display: inline-block;
+    padding: 13px 25px;
+    background-color: #f28c00;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 12px;
+    transition: 0.3s ease;
+}
+
+.book-btn:hover {
+    background-color: #d97700;
+    transform: translateY(-2px);
+}
+
+
+@media (max-width: 1000px) {
+
+    .header-container {
+        gap: 20px;
+    }
+
+    .nav-bar {
+        margin-left: 20px;
+        gap: 18px;
+    }
+
+    .nav-bar a {
+        font-size: 14px;
+    }
+
+    .logo {
+        font-size: 28px;
+    }
+
+    .book-btn {
+        padding: 11px 18px;
+        font-size: 14px;
+    }
+}
+
+/* =========================
+   HERO SECTION
+========================= */
+
+.hero {
+    width: 100%;
+    height: 680px;
+    position: relative;
+    background-image: url("./Assests/abut_fig.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.hero img {
+    height: auto;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:
+        linear-gradient(90deg, rgba(8, 35, 105, 0.96) 0%, rgba(8, 35, 105, 0.82) 38%, rgba(8, 35, 105, 0.45) 65%,
+            rgba(8, 35, 105, 0.20) 100%, rgba(8, 35, 105, 0.20) 100%);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    width: 1200px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding-top: 130px;
+    Color: rgb(255, 140, 0);
+}
+
+.small-heading {
+    color: #ff8c00;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 22px;
+}
+
+.hero-content h6 {
+    color: white;
+    font-size: 50px;
+    line-height: 1.08;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.description {
+    color: black;
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 22px;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 28px;
+    border-radius: 9px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+
+.book-btn {
+    background-color: #ff8c00;
+    color: white;
+    border: 2px solid #ff8c00;
+}
+
+.book-btn:hover {
+    background-color: #e87900;
+    border-color: #e87900;
+    transform: translateY(-2px);
+}
+
+.call-btn {
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgb(10, 1, 1);
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 28px;
+    border-radius: 9px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.call-btn:hover {
+    background-color: rgb(251, 4, 4);
+    color: #123b91;
+    transform: translateY(-2px);
+}
+
+
+/* =========================
+   ABOUT SECTION
+========================= */
+
+.about-section {
+    width: 100%;
+    padding: 100px 0;
+    background-color: #ffffff;
+}
+
+.about-container {
+    width: 1200px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.about-image {
+    width: 50%;
+}
+
+.about-image img {
+    width: 100%;
+    height: 525px;
+    object-fit: cover;
+    display: block;
+    border-radius: 16px;
+}
+
+.about-content {
+    width: 50%;
+}
+
+.small-heading {
+    color: #f28c00;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+
+.about-content h2 {
+    color: #092b78;
+    font-size: 46px;
+    line-height: 1.2;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.description {
+    color: #666666;
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 22px;
+}
+
+.learn-btn {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 14px 30px;
+    background-color: #f28c00;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 9px;
+    transition: 0.3s ease;
+}
+
+.learn-btn:hover {
+    background-color: #d97700;
+    transform: translateY(-2px);
+}
+
+/* =========================
+   Main Section
+========================= */
+
+.car-section {
+    width: 100%;
+    padding: 10px;
+}
+
+
+/* =========================
+   Main Contanier
+========================= */
+
+.car-container {
+    width: 100%;
+    max-width: 1620px;
+    margin: auto;
+    padding: 25px 20px;
+    border: 1px solid #010101;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+/* =========================
+   Left- image
+========================= */
+
+.car-image {
+    width: 50%;
+}
+
+.car-image img {
+    width: 100%;
+    height: 455px;
+    object-fit: cover;
+    display: block;
+    border-radius: 5px;
+}
+
+
+/* =========================
+  Right Content
+========================= */
+
+.car-content {
+    width: 50%;
+    padding: 20px 0;
+}
+
+
+/* Heading */
+
+.car-content h2 {
+    color: #101522;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-bottom: 25px;
+}
+
+
+/* =========================
+   Paragraph
+========================= */
+
+.car-content p {
+    color: #3f3f3f;
+    font-size: 18px;
+    line-height: 1.8;
+    margin: 0;
+}
+
+/* =========================
+   Sell For car Section
+========================= */
+
+.car-section {
+    width: 98%;
+    margin: 0 auto;
+    padding: 25px 22px;
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* =========================
+   Left Side
+========================= */
+.content {
+    width: 50%;
+}
+
+.content h3 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.3;
+    color: #111827;
+    margin-bottom: 24px;
+}
+
+.content p {
+    font-size: 18px;
+    line-height: 1.82;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 18px;
+}
+
+/* =========================
+   Right Side Image
+========================= */
+.image-box {
+    width: 49%;
+}
+
+.image-box img {
+    width: 100%;
+    height: 498px;
+    object-fit: cover;
+    display: block;
+    border-radius: 5px;
+}
+
+/* =========================================
+   SERVICES SECTION
+========================================= */
+
+.services {
+    position: relative;
+    width: 100%;
+    min-height: 790px;
+    padding: 45px 0 25px;
+    background-image: url("Assests/servicesbgparkinh_flg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    diaplay: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.services img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+/* =========================================
+   DARK OVERLAY
+========================================= */
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.72);
+    z-index: 1;
+}
+
+/* =========================================
+   Container
+========================================= */
+
+.container {
+    position: relative;
+    z-index: 2;
+    width: 1200px;
+    max-width: 90%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+/* =========================================
+  SECTION TITLE
+========================================= */
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.section-title h2 {
+    font-size: 38px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+/* =========================================
+   Car icon
+========================================= */
+
+.car-icon {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* =========================================
+   SERVICE CONTAINER
+========================================= */
+
+.service-container {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* =========================================
+   SERVICE CARD
+========================================= */
+.service-card {
+    flex: 1;
+    background-color: rgb(255, 255, 255, 0.35);
+    border-radius: 8px;
+    border: 1px solid rgb(30, 30, 30, 0.70);
+    padding: 30px;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+
+/* =========================================
+   Card Hover 
+========================================= */
+
+.service-card:hover {
+    border-color: rgba(255, 255, 255, 0.7);
+    transform: translateY(-5px);
+}
+
+/* =========================================
+  Card image 
+========================================= */
+
+.service-card img {
+    width: 450px;
+    height: 275px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    display: block;
+    border-radius: 4px;
+}
+
+
+/* =========================================
+   Card-Content
+========================================= */
+
+.card-content {
+    color: rgb(0, 0, 0);
+}
+
+/* =========================================
+   Card Hearding
+========================================= */
+
+
+.card-content h3 {
+    font-size: 24px;
+    font-weight: 200;
+    margin-bottom: 15px;
+}
+
+/* =========================================
+   Card Paragraph
+========================================= */
+
+.card-content p {
+    font-size: 18px;
+    line-height: 1.75;
+    margin-bottom: 20px;
+    min-height: 115px;
+}
+
+
+/* =========================================
+   Read More Button
+========================================= */
+
+.red-btn {
+    display: inline-block;
+    padding: 14px 28px;
+    background-color: #ff9418;
+    color: rgb(250, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    border: 2px solid #4c03f6;
+
+}
+
+/* =========================================
+Button Hover
+========================================= */
+
+.red-btn:hover {
+    background-color: #e67d00;
+    transform: translateY(-2px);
+}
+
+.services {
+    background-image: url("Assests/servicesbgparkinh_flg.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+}
+
+/* =========================
+   Features-section
+========================= */
+.services-section {
+    width: 100%;
+    min-height: 450px;
+    background: #020615;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* Each column */
+.service {
+    min-height: 450px;
+    border-right: 1px solid #303647;
+    display: flex;
+    align-items: center;
+    padding: 50px 70px;
+    gap: 38px;
+}
+
+.service:last-child {
+    border-right: none;
+}
+
+/* Icon */
+.icon-box {
+    width: 100px;
+    height: 100px;
+    min-width: 100px;
+    border: 1px solid #424858;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    clip-path: polygon(28% 0%,
+            72% 0%,
+            100% 28%,
+            100% 72%,
+            72% 100%,
+            28% 100%,
+            0% 72%,
+            0% 28%);
+}
+
+.icon {
+    font-size: 45px;
+    color: #ff0000;
+    filter: grayscale(1) brightness(0) saturate(100%) invert(12%) sepia(100%) saturate(7467%) hue-rotate(1deg) brightness(101%);
+}
+
+/* Content */
+.service-content {
+    max-width: 330px;
+}
+
+.service-content h2 {
+    color: #ffffff;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 1.35;
+    margin-bottom: 20px;
+}
+
+.service-content p {
+    color: #9299ad;
+    font-size: 18px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+/* Simple red icons */
+.truck-icon::before {
+    content: "🚚";
+}
+
+.mechanic-icon::before {
+    content: "👨‍🔧";
+}
+
+.money-icon::before {
+    content: "💰";
+}
+
+/* Desktop */
+@media (max-width: 1200px) {
+
+    .service {
+        padding: 45px 35px;
+        gap: 25px;
+    }
+
+    .icon-box {
+        width: 85px;
+        min-width: 85px;
+        height: 85px;
+    }
+
+    .service-content h2 {
+        font-size: 25px;
+    }
+
+    .service-content p {
+        font-size: 16px;
+    }
+}
+
+
+/* =========================
+Contact From Info
+========================= */
+
+/* Main Section */
+.contact-section {
+    width: 100%;
+    min-height: 635px;
+    background: #ffffff;
+
+    padding: 52px 0 60px;
+}
+
+/* Heading */
+.contact-title {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.contact-title h1 {
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    color: #080c18;
+}
+
+/* Small car decoration */
+.car-decoration {
+    text-align: center;
+    height: 45px;
+    margin-bottom: 22px;
+}
+
+.car-decoration span {
+    font-size: 36px;
+    line-height: 1;
+}
+
+/* Form Container */
+.contact-form {
+    width: 68%;
+    max-width: 1295px;
+    margin: 0 auto;
+}
+
+/* Two columns */
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+/* Inputs */
+.form-control,
+select,
+textarea {
+    width: 100%;
+    border: 1px solid #d7d7d7;
+    border-radius: 4px;
+    background: #ffffff;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    outline: none;
+}
+
+.form-control,
+select {
+    height: 50px;
+    padding: 0 20px;
+}
+
+/* Select */
+select {
+    appearance: auto;
+    cursor: pointer;
+}
+
+/* Placeholder */
+input::placeholder,
+textarea::placeholder {
+    color: #666666;
+    opacity: 1;
+}
+
+/* Textarea */
+textarea {
+    height: 118px;
+    resize: both;
+    padding: 14px 20px;
+    margin-bottom: 18px;
+}
+
+/* Button */
+.submit-wrapper {
+    text-align: center;
+}
+
+.submit-btn {
+    width: 128px;
+    height: 38px;
+
+    border: none;
+    border-radius: 3px;
+
+    background: #ff9418;
+    color: #ffffff;
+
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.submit-btn:hover {
+    background: #e98108;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+.footer {
+    position: relative;
+    background: #020711;
+    color: #ffffff;
+    overflow: hidden;
+    padding-top: 38px;
+}
+
+
+/* Small background pattern */
+.footer::before {
+    content: "";
+    position: absolute;
+    background-image:
+        linear-gradient(30deg, transparent 65%, rgba(0, 76, 130, .18) 66%),
+        linear-gradient(150deg, transparent 65%, rgba(0, 76, 130, .15) 66%);
+    background-size: 35px 35px;
+    opacity: .35;
+    pointer-events: none;
+}
+
+
+/* =========================
+   MAIN FOOTER
+========================= */
+
+.footer-container {
+    position: relative;
+    z-index: 2;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns:
+        1.15fr 1fr 1.25fr 1.3fr;
+    gap: 55px;
+    padding: 0 10px 55px;
+}
+
+
+/* =========================
+   LOGO
+========================= */
+
+.footer-logo {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.logo-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 4px;
+}
+
+
+/* Logo badge */
+
+.logo-badge {
+    width: 145px;
+    height: 90px;
+    margin: auto;
+    position: relative;
+    background: #f3a400;
+    border: 5px solid #ffffff;
+}
+
+
+/* Red W shape */
+
+.logo-symbol {
+    position: absolute;
+    left: 50%;
+    top: 42%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    font-weight: 900;
+    color: #e5001b;
+    text-shadow: 3px 3px 0 #111 ;
+}
+
+
+/* Car */
+
+.car-icon {
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 23px;
+    color: #111;
+}
+
+
+/* Logo bottom */
+
+.logo-bottom {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 4px;
+}
+
+
+/* =========================
+   COLUMNS
+========================= */
+
+.footer-column h3 {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: .3px;
+    margin-bottom: 12px;
+}
+
+.yellow-line {
+    display: block;
+    width: 45px;
+    height: 1px;
+    background: #f5a900;
+    margin-bottom: 20px;
+}
+
+
+/* Lists */
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column li {
+    margin-bottom: 14px;
+}
+
+.footer-column a {
+    color: #ffffff;
+
+    text-decoration: none;
+
+    font-size: 12px;
+
+    transition: .3s;
+}
+
+.footer-column a:hover {
+    color: #f5a900;
+    padding-left: 4px;
+}
+
+
+/* =========================
+   CONTACT
+========================= */
+
+.contact-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 13px;
+}
+
+.contact-item p {
+    font-size: 12px;
+    line-height: 18px;
+    color: #ffffff;
+}
+
+
+/* Circular icons */
+
+.contact-icon {
+    width: 25px;
+    height: 25px;
+    min-width: 25px;
+    border: 1px solid #f5a900;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f5a900;
+    font-size: 11px;
+}
+
+
+/* =========================
+   BOTTOM FOOTER
+========================= */
+
+.footer-bottom {
+    position: relative;
+    z-index: 2;
+    max-width: 1100px;
+    margin: auto;
+    border-top: 1px solid rgba(255, 255, 255, .08);
+    min-height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 10px;
+}
+
+.footer-bottom p {
+    font-size: 12px;
+    color: #ffffff;
+}
+
+
+/* =========================
+   SOCIAL ICONS
+========================= */
+
+.social-icons {
+    display: flex;
+    gap: 8px;
+}
+
+.social-icons a {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+    transition: .3s;
+}
+
+.facebook {
+    background: #4267B2;
+}
+
+.linkedin {
+    background: #0A66C2;
+}
+
+.twitter {
+    background: #1DA1F2;
+}
+
+.social-icons a:hover {
+    transform: translateY(-4px);
+}

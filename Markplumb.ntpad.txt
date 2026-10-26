@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MarkPlumb</title>
+
+    <link rel="stylesheet" href="markplumb1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="top-bar">
+        <div class="top-container">
+
+            <div class="location">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Adelaide, South Australia</span>
+            </div>
+
+            <div class="contact-info">
+
+                <span>
+                    <i class="fa-solid fa-phone"></i>
+                    +91 9876543210
+                </span>
+
+                <span>
+                    <i class="fa-solid fa-envelope"></i>
+                    info@markplumb.com
+                </span>
+
+            </div>
+
+        </div>
+    </div>
+    <header class="header">
+
+        <div class="header-container">
+
+            <div class="logo">
+                <span class="mark">Mark</span><span class="plumb">Plumb</span>
+            </div>
+            <nav class="nav-bar">
+
+                <a href="#" class="active">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Emergency</a>
+                <a href="#">Contact</a>
+
+            </nav>
+            <div class="button-box">
+                <a href="#" class="book-btn">
+                    Book Service
+                </a>
+            </div>
+
+        </div>
+        <!-- Hero Section -->
+
+        <section class="hero">
+            <img src="plumber-hero.jpg" alt="Plumbing Services">
+            <div class="overlay">
+
+                <div class="hero-content">
+
+                    <p class="small-heading">
+                        TRUSTED PLUMBING EXPERTS IN ADELAIDE
+                    </p>
+
+                    <h6>
+                        Reliable Plumbing<br>
+                        Solutions You Can<br>
+                        Trust
+                    </h6>
+
+                    <p class="description">
+                        Professional plumbing services for homes and businesses across
+                        Adelaide, delivered by experienced local plumbers.
+                    </p>
+                    <br>
+                    <br>
+
+                    <div class="buttons">
+
+                        <a href="#" class="book-btn">
+                            Book a Plumber
+                        </a>
+
+                        <a href="#" class="call-btn">
+                            Call Now
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+            <br>
+            <br>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section">
+
+            <div class="about-container">
+
+                <div class="about-image">
+                    <img src="plumber-about.jpg" alt="Experienced Plumber">
+                </div>
+
+                <div class="about-content">
+
+                    <p class="small-heading">
+                        ABOUT OUR PLUMBING COMPANY
+                    </p>
+
+                    <h2>
+                        Experienced<br>
+                        Plumbers, Quality<br>
+                        Workmanship
+                    </h2>
+
+                    <p class="description">
+                        We provide reliable plumbing solutions for residential and commercial
+                        properties across Adelaide. Our experienced team is committed to delivering
+                        professional workmanship, honest service, and practical solutions for every
+                        plumbing need.
+                    </p>
+
+                    <p class="description">
+                        From emergency repairs and blocked drains to hot water systems and
+                        general maintenance, we are here to keep your plumbing running smoothly.
+                    </p>
+
+                    <a href="#" class="learn-btn">
+                        Learn More
+                    </a>
+
+                </div>
+
+            </div>
+
+
+        </section>
+ <!-- ================= SERVICES SECTION ================= -->
+
+    <section class="services">
+
+        <div class="overlay"></div>
+
+        <div class="container">
+
+            <!-- Heading -->
+            <div class="section-title">
+
+                <h1>Our Services</h1>
+
+                <div class="car-icon">
+                    🚘
+                </div>
+
+            </div>
+
+
+            <!-- Service Cards -->
+            <div class="service-container">
+
+
+                <!-- Card 1 -->
+                <div class="service-card">
+
+                    <img src="scrap-cars.jpg" alt="Cash For Scrap Cars">
+
+                    <div class="card-content">
+
+                        <h2>Cash For Scrap Cars</h2>
+
+                        <p>
+                            Get fast and reliable scrap car removal services
+                            all around Australia with Waterloo Automotive
+                            Wreckers. As we maintain professionalism and
+                            sustainability.
+                        </p>
+
+                        <a href="#" class="read-btn">
+                            Read More
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Card 2 -->
+                <div class="service-card">
+
+                    <img src="japanese-car.jpg" alt="Japanese Car Wrecking">
+
+                    <div class="card-content">
+
+                        <h2>Japanese Car Wrecking</h2>
+
+                        <p>
+                            Are you planning to get rid of your old and damaged
+                            Japanese car for the best price in Adelaide? If yes,
+                            then it's time to contact the best Japanese wreckers
+                            in Adelaide.
+                        </p>
+
+                        <a href="#" class="read-btn">
+                            Read More
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Card 3 -->
+                <div class="service-card">
+
+                    <img src="european-car.jpg" alt="European Car Wrecking">
+
+                    <div class="card-content">
+
+                        <h2>European Car Wrecking</h2>
+
+                        <p>
+                            We at Waterloo Auto Wreckers buy any type of
+                            European car, no matter what the current condition
+                            is. As one of the top-rated European wreckers
+                            in Adelaide.
+                        </p>
+
+                        <a href="#" class="read-btn">
+                            Read More
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Text Us Button -->
+
+    <a href="#" class="text-us">
+        💬 &nbsp; Text us
+    </a>
+
+
+    </header>
+
+</body>
+
+</html>

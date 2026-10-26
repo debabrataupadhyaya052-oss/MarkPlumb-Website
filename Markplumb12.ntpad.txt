@@ -1,0 +1,803 @@
+<section class="car-section">
+
+        <div class="car-container">
+
+            <!-- Left Image -->
+            <div class="car-image">
+                <img src="cars.jpg" alt="Cash for Cars in Adelaide">
+            </div>
+
+
+            <!-- Right Content -->
+            <div class="car-content">
+
+                <h1>
+                    Paying Cash For Cars In Adelaide - Any Model
+                </h1>
+
+                <p>
+                    Thanks to our cash for cars service in Adelaide, our company
+                    is frequently involved in buying all types of vehicles from
+                    all over the country whether you're from a Rural or Metro
+                    area. As a result, if the car is located in Adelaide then
+                    there are no restrictions or limitations in purchasing your
+                    car. From old and scrap cars to junk and damaged trucks in
+                    South Australia or any other State, we accept all vehicles.
+                    Any car, van, truck or 4wd – we pay top $$$$ for your
+                    unwanted cars anywhere in South Australia.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+CSS code
+
+/* Main Section */
+
+.car-section {
+    width: 100%;
+    padding: 10px;
+}
+
+
+/* Main Container */
+
+.car-container {
+    width: 100%;
+    max-width: 1620px;
+
+    margin: auto;
+
+    padding: 25px 20px;
+
+    border: 1px solid #e5e5e5;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 30px;
+}
+
+
+/* Left Image */
+
+.car-image {
+    width: 50%;
+}
+
+.car-image img {
+    width: 100%;
+
+    height: 455px;
+
+    object-fit: cover;
+
+    display: block;
+
+    border-radius: 5px;
+}
+
+
+/* Right Content */
+
+.car-content {
+    width: 50%;
+
+    padding: 20px 0;
+}
+
+
+/* Heading */
+
+.car-content h1 {
+    color: #101522;
+
+    font-size: 28px;
+
+    font-weight: 500;
+
+    line-height: 1.3;
+
+    margin-bottom: 25px;
+}
+
+
+/* Paragraph */
+
+.car-content p {
+    color: #3f3f3f;
+
+    font-size: 18px;
+
+    line-height: 1.8;
+
+    margin: 0;
+}
+..................................................
+
+
+
+
+
+
+
+
+
+
+HTML code
+==========
+<section class="car-section">
+
+        <!-- LEFT CONTENT -->
+        <div class="content">
+
+            <h1>
+                Simple Way To Sell Your Car Fast In Adelaide
+            </h1>
+
+            <p>
+                The time frame in which our team at Waterloo Auto Wreckers buy cars is not lengthy or
+                complex. In fact, it is simple, quick and easy to understand how to sell your car in the Rural
+                or Metro Areas of Adelaide. Cash for scrap cars at Waterloo Auto Wreckers presents the
+                easiest way to sell your car. In short, the whole process which involves the process of
+                selling your car consists of only three steps.
+            </p>
+
+            <p>
+                Talk to one of our team members – share your car details – get a quick and hassle-free
+                quote<br>
+
+                Happy with the quote – share your location whether the car is in a Rural or Metro area –
+                book your car for pickup<br>
+
+                on the paperwork – get payments in hands – get free car pickup from anywhere
+            </p>
+
+        </div>
+
+
+        <!-- RIGHT IMAGE -->
+        <div class="image-box">
+            <img src="car.jpg" alt="Sell Your Car">
+        </div>
+
+    </section>
+
+
+
+CSS code
+=========
+
+<style>
+        .car-section {
+            width: 98%;
+            margin: 0 auto;
+            padding: 25px 22px;
+            min-height: 550px;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 40px;
+
+            border: 1px solid #e5e5e5;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        /* LEFT SIDE */
+        .content {
+            width: 51%;
+        }
+
+        .content h1 {
+            font-size: 28px;
+            font-weight: 500;
+            line-height: 1.3;
+            color: #111827;
+            margin-bottom: 24px;
+        }
+
+        .content p {
+            font-size: 18px;
+            line-height: 1.82;
+            font-weight: 400;
+            color: #333;
+            margin-bottom: 18px;
+        }
+
+        /* RIGHT SIDE IMAGE */
+        .image-box {
+            width: 49%;
+        }
+
+        .image-box img {
+            width: 100%;
+            height: 498px;
+            object-fit: cover;
+            display: block;
+            border-radius: 5px;
+        }
+
+        /* TABLET */
+        @media (max-width: 900px) {
+
+            .car-section {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .content,
+            .image-box {
+                width: 100%;
+            }
+
+            .image-box img {
+                height: auto;
+            }
+        }
+
+        /* MOBILE */
+        @media (max-width: 600px) {
+
+            .car-section {
+                width: 100%;
+                padding: 20px 15px;
+                gap: 25px;
+            }
+
+            .content h1 {
+                font-size: 23px;
+            }
+
+            .content p {
+                font-size: 16px;
+                line-height: 1.7;
+            }
+        }
+    </style>
+
+.......................................................................
+
+
+
+HTML code
+===========
+<section class="services-section">
+
+        <!-- BOX 1 -->
+        <div class="service">
+
+            <div class="icon-box">
+                <span class="icon truck-icon"></span>
+            </div>
+
+            <div class="service-content">
+                <h2>
+                    Your Automotive<br>
+                    Repair Experts
+                </h2>
+
+                <p>
+                    We are one of the Leading auto
+                    repair shops in Adelaide.
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- BOX 2 -->
+        <div class="service">
+
+            <div class="icon-box">
+                <span class="icon mechanic-icon"></span>
+            </div>
+
+            <div class="service-content">
+                <h2>
+                    Professional &amp;<br>
+                    Australian Standards
+                </h2>
+
+                <p>
+                    Our professional technicians know
+                    how to handle a wide range of
+                    Truck services.
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- BOX 3 -->
+        <div class="service">
+
+            <div class="icon-box">
+                <span class="icon money-icon"></span>
+            </div>
+
+            <div class="service-content">
+                <h2>
+                    Value for Spending<br>
+                    Money
+                </h2>
+
+                <p>
+                    We understand our cost, and
+                    yours. The Southwell Diesel
+                    Services has huge ROI.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+</html>
+
+
+CSS code
+=========
+
+<style>
+       .services-section {
+            width: 100%;
+            min-height: 450px;
+            background: #020615;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        /* Each column */
+        .service {
+            min-height: 450px;
+            border-right: 1px solid #303647;
+
+            display: flex;
+            align-items: center;
+
+            padding: 50px 70px;
+            gap: 38px;
+        }
+
+        .service:last-child {
+            border-right: none;
+        }
+
+        /* Icon */
+        .icon-box {
+            width: 100px;
+            height: 100px;
+            min-width: 100px;
+
+            border: 1px solid #424858;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            position: relative;
+
+            clip-path: polygon(
+                28% 0%,
+                72% 0%,
+                100% 28%,
+                100% 72%,
+                72% 100%,
+                28% 100%,
+                0% 72%,
+                0% 28%
+            );
+        }
+
+        .icon {
+            font-size: 45px;
+            color: #ff0000;
+            filter: grayscale(1) brightness(0) saturate(100%)
+                    invert(12%) sepia(100%) saturate(7467%)
+                    hue-rotate(1deg) brightness(101%);
+        }
+
+        /* Content */
+        .service-content {
+            max-width: 330px;
+        }
+
+        .service-content h2 {
+            color: #ffffff;
+            font-family: Georgia, "Times New Roman", serif;
+
+            font-size: 29px;
+            font-weight: 400;
+            line-height: 1.35;
+
+            margin-bottom: 20px;
+        }
+
+        .service-content p {
+            color: #9299ad;
+
+            font-size: 18px;
+            line-height: 1.7;
+            font-weight: 400;
+        }
+
+        /* Simple red icons */
+        .truck-icon::before {
+            content: "🚚";
+        }
+
+        .mechanic-icon::before {
+            content: "👨‍🔧";
+        }
+
+        .money-icon::before {
+            content: "💰";
+        }
+
+        /* Desktop */
+        @media (max-width: 1200px) {
+
+            .service {
+                padding: 45px 35px;
+                gap: 25px;
+            }
+
+            .icon-box {
+                width: 85px;
+                min-width: 85px;
+                height: 85px;
+            }
+
+            .service-content h2 {
+                font-size: 25px;
+            }
+
+            .service-content p {
+                font-size: 16px;
+            }
+        }
+
+        /* Tablet */
+        @media (max-width: 900px) {
+
+            .services-section {
+                grid-template-columns: 1fr;
+            }
+
+            .service {
+                min-height: 300px;
+                border-right: none;
+                border-bottom: 1px solid #303647;
+                padding: 45px;
+            }
+
+            .service:last-child {
+                border-bottom: none;
+            }
+        }
+
+        /* Mobile */
+        @media (max-width: 600px) {
+
+            .service {
+                padding: 35px 25px;
+                gap: 20px;
+                align-items: flex-start;
+            }
+
+            .icon-box {
+                width: 70px;
+                min-width: 70px;
+                height: 70px;
+            }
+
+            .icon {
+                font-size: 32px;
+            }
+
+            .service-content h2 {
+                font-size: 22px;
+                margin-bottom: 12px;
+            }
+
+            .service-content p {
+                font-size: 15px;
+                line-height: 1.6;
+            }
+        }
+    </style>
+
+
+
+
+
+
+HTML code 
+============
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #ffffff;
+            color: #090d19;
+        }
+
+        /* Main Section */
+        .contact-section {
+            width: 100%;
+            min-height: 635px;
+            background: #ffffff;
+
+            padding: 52px 0 60px;
+        }
+
+        /* Heading */
+        .contact-title {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .contact-title h1 {
+            font-size: 34px;
+            font-weight: 700;
+            letter-spacing: 0.3px;
+            color: #080c18;
+        }
+
+        /* Small car decoration */
+        .car-decoration {
+            text-align: center;
+            height: 45px;
+            margin-bottom: 22px;
+        }
+
+        .car-decoration span {
+            font-size: 36px;
+            line-height: 1;
+        }
+
+        /* Form Container */
+        .contact-form {
+            width: 68%;
+            max-width: 1295px;
+            margin: 0 auto;
+        }
+
+        /* Two columns */
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+            margin-bottom: 25px;
+        }
+
+        /* Inputs */
+        .form-control,
+        select,
+        textarea {
+            width: 100%;
+            border: 1px solid #d7d7d7;
+            border-radius: 4px;
+            background: #ffffff;
+            color: #333333;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            outline: none;
+        }
+
+        .form-control,
+        select {
+            height: 50px;
+            padding: 0 20px;
+        }
+
+        /* Select */
+        select {
+            appearance: auto;
+            cursor: pointer;
+        }
+
+        /* Placeholder */
+        input::placeholder,
+        textarea::placeholder {
+            color: #666666;
+            opacity: 1;
+        }
+
+        /* Textarea */
+        textarea {
+            height: 118px;
+            resize: both;
+            padding: 14px 20px;
+            margin-bottom: 18px;
+        }
+
+        /* Button */
+        .submit-wrapper {
+            text-align: center;
+        }
+
+        .submit-btn {
+            width: 128px;
+            height: 38px;
+
+            border: none;
+            border-radius: 3px;
+
+            background: #ff9418;
+            color: #ffffff;
+
+            font-size: 13px;
+            font-weight: 700;
+            letter-spacing: 1px;
+
+            cursor: pointer;
+            transition: background 0.2s ease;
+        }
+
+        .submit-btn:hover {
+            background: #e98108;
+        }
+
+        /* Tablet */
+        @media (max-width: 900px) {
+
+            .contact-form {
+                width: 85%;
+            }
+
+            .contact-title h1 {
+                font-size: 28px;
+            }
+        }
+
+        /* Mobile */
+        @media (max-width: 600px) {
+
+            .contact-section {
+                padding: 40px 0;
+            }
+
+            .contact-title h1 {
+                font-size: 23px;
+            }
+
+            .contact-form {
+                width: 90%;
+            }
+
+            .form-row {
+                grid-template-columns: 1fr;
+                gap: 18px;
+                margin-bottom: 18px;
+            }
+
+            .form-control,
+            select {
+                height: 48px;
+            }
+
+            textarea {
+                height: 120px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="contact-section">
+
+        <!-- Heading -->
+        <div class="contact-title">
+            <h1>Waterloo Auto Wreckers is here for you 24/7.</h1>
+        </div>
+
+        <!-- Car Decoration -->
+        <div class="car-decoration">
+            <span>🚗</span>
+        </div>
+
+
+        <!-- Contact Form -->
+        <form class="contact-form">
+
+            <!-- Row 1 -->
+            <div class="form-row">
+
+                <input
+                    type="text"
+                    class="form-control"
+                    placeholder="First name *"
+                    required
+                >
+
+                <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Last name *"
+                    required
+                >
+
+            </div>
+
+
+            <!-- Row 2 -->
+            <div class="form-row">
+
+                <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email *"
+                    required
+                >
+
+                <input
+                    type="tel"
+                    class="form-control"
+                    placeholder="Phone number *"
+                    required
+                >
+
+            </div>
+
+
+            <!-- Row 3 -->
+            <div class="form-row">
+
+                <select required>
+                    <option value="">Service you're contacting us about</option>
+                    <option>Car Wrecking</option>
+                    <option>Sell My Car</option>
+                    <option>Scrap Car Removal</option>
+                    <option>Car Parts</option>
+                </select>
+
+                <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Address"
+                >
+
+            </div>
+
+
+            <!-- Message -->
+            <textarea
+                placeholder="Message..."
+            ></textarea>
+
+
+            <!-- Submit -->
+            <div class="submit-wrapper">
+                <button type="submit" class="submit-btn">
+                    SUBMIT
+                </button>
+            </div>
+
+        </form>
+
+    </section>
+
+</body>
+</html>
